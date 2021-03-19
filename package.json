@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "webpack-dev-server --open",
-    "build": "NODE_ENV=production webpack --config webpack-dist.config.js -p"
+    "build": "webpack --config webpack-dist.config.js -p"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.0",
@@ -9,6 +9,7 @@
     "compass-mixins": "^0.12.10",
     "css-loader": "^3.5.3",
     "end-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^4.5.2",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
